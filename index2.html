@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>Task Management App</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your task">
+                <select name="select" id="important">
+                    <option value="low">Low Importance</option>
+                    <option value="medium">Medium Importance</option>
+                    <option value="high">High Importance</option>
+                </select>
+                <button onclick="addTask()">Add</button>
+            </div>
+            <br>
+            <input type="date" id="date">
+            <input type="text" id="location" placeholder="Location">
+            <ul id="list-container"></ul>
+        </div>
+    </div>
+    
+    <script src="script2.js"></script>
+</body>
+</html>
